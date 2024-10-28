@@ -6,6 +6,7 @@ export default function Home() {
   const router = useRouter();
   return (
     <div className="grid justify-center items-center h-screen ">
+      <h1>Homepage</h1>
       <button
         className="outline outline-offset-2 outline-pink-500"
         onClick={() => router.push("/arun")}
@@ -16,7 +17,7 @@ export default function Home() {
         className="rounded-lg ring-4 border-indigo-600"
         onClick={() => router.push("/dashboard")}
       >
-        Dashboard
+        Dashboard Page
       </button>
     </div>
   );
